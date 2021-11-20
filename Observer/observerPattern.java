@@ -151,7 +151,7 @@ class AccuWeather implements Observer {
 
 
 
-public class observerPattern {
+public class ObserverPattern {
     public static void main(String[] args) {
         Subject weather = new WeatherService();
         

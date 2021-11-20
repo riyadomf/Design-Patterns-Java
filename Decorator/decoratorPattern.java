@@ -69,7 +69,7 @@ class Chocolate extends CondimentDecorator{
     
 } 
 
-public class decoratorPattern{
+public class DecoratorPattern{
     public static void main(String[] args) {
         Coffee coffee = new Espresso();
         System.out.printf("%s <> %d\n", coffee, coffee.cost());

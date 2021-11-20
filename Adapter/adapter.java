@@ -78,7 +78,7 @@ class BikeToCarAdapter extends Car{
     
 }
 
-public class adapter{
+public class Adapter{
     public static void main(String[] args){
         Car mclaren = new Mclaren();
         Car suzuki = new BikeToCarAdapter(new Suzuki());

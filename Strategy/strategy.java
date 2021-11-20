@@ -72,7 +72,7 @@ class Player{
 }
 
 
-public class strategy{
+public class Strategy{
     public static void main(String[] args){
         Player p1 = new Player("Riyad", new RunLikeAmateur(), new KickLikeAmateur());
 
